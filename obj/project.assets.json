@@ -1,38 +1,43 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net5.0": {
       "Avalonia/11.0.10": {
         "type": "package",
         "dependencies": {
           "Avalonia.BuildServices": "0.0.29",
           "Avalonia.Remote.Protocol": "11.0.10",
           "MicroCom.Runtime": "0.11.0",
-          "System.ComponentModel.Annotations": "4.5.0"
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
+          "System.ComponentModel.Annotations": "4.5.0",
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "System.ValueTuple": "4.5.0"
         },
         "compile": {
-          "ref/net6.0/Avalonia.Base.dll": {},
-          "ref/net6.0/Avalonia.Controls.dll": {},
-          "ref/net6.0/Avalonia.DesignerSupport.dll": {},
-          "ref/net6.0/Avalonia.Dialogs.dll": {},
-          "ref/net6.0/Avalonia.Markup.Xaml.dll": {},
-          "ref/net6.0/Avalonia.Markup.dll": {},
-          "ref/net6.0/Avalonia.Metal.dll": {},
-          "ref/net6.0/Avalonia.MicroCom.dll": {},
-          "ref/net6.0/Avalonia.OpenGL.dll": {},
-          "ref/net6.0/Avalonia.dll": {}
+          "ref/netcoreapp2.0/Avalonia.Base.dll": {},
+          "ref/netcoreapp2.0/Avalonia.Controls.dll": {},
+          "ref/netcoreapp2.0/Avalonia.DesignerSupport.dll": {},
+          "ref/netcoreapp2.0/Avalonia.Dialogs.dll": {},
+          "ref/netcoreapp2.0/Avalonia.Markup.Xaml.dll": {},
+          "ref/netcoreapp2.0/Avalonia.Markup.dll": {},
+          "ref/netcoreapp2.0/Avalonia.Metal.dll": {},
+          "ref/netcoreapp2.0/Avalonia.MicroCom.dll": {},
+          "ref/netcoreapp2.0/Avalonia.OpenGL.dll": {},
+          "ref/netcoreapp2.0/Avalonia.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.Base.dll": {},
-          "lib/net6.0/Avalonia.Controls.dll": {},
-          "lib/net6.0/Avalonia.DesignerSupport.dll": {},
-          "lib/net6.0/Avalonia.Dialogs.dll": {},
-          "lib/net6.0/Avalonia.Markup.Xaml.dll": {},
-          "lib/net6.0/Avalonia.Markup.dll": {},
-          "lib/net6.0/Avalonia.Metal.dll": {},
-          "lib/net6.0/Avalonia.MicroCom.dll": {},
-          "lib/net6.0/Avalonia.OpenGL.dll": {},
-          "lib/net6.0/Avalonia.dll": {}
+          "lib/netcoreapp2.0/Avalonia.Base.dll": {},
+          "lib/netcoreapp2.0/Avalonia.Controls.dll": {},
+          "lib/netcoreapp2.0/Avalonia.DesignerSupport.dll": {},
+          "lib/netcoreapp2.0/Avalonia.Dialogs.dll": {},
+          "lib/netcoreapp2.0/Avalonia.Markup.Xaml.dll": {},
+          "lib/netcoreapp2.0/Avalonia.Markup.dll": {},
+          "lib/netcoreapp2.0/Avalonia.Metal.dll": {},
+          "lib/netcoreapp2.0/Avalonia.MicroCom.dll": {},
+          "lib/netcoreapp2.0/Avalonia.OpenGL.dll": {},
+          "lib/netcoreapp2.0/Avalonia.dll": {}
         },
         "build": {
           "buildTransitive/Avalonia.props": {},
@@ -69,10 +74,10 @@
           "Avalonia.Remote.Protocol": "11.0.10"
         },
         "compile": {
-          "lib/net6.0/Avalonia.Controls.ColorPicker.dll": {}
+          "lib/netstandard2.0/Avalonia.Controls.ColorPicker.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.Controls.ColorPicker.dll": {}
+          "lib/netstandard2.0/Avalonia.Controls.ColorPicker.dll": {}
         }
       },
       "Avalonia.Controls.DataGrid/11.0.10": {
@@ -82,10 +87,10 @@
           "Avalonia.Remote.Protocol": "11.0.10"
         },
         "compile": {
-          "lib/net6.0/Avalonia.Controls.DataGrid.dll": {}
+          "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.Controls.DataGrid.dll": {}
+          "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll": {}
         }
       },
       "Avalonia.Desktop/11.0.10": {
@@ -98,10 +103,10 @@
           "Avalonia.X11": "11.0.10"
         },
         "compile": {
-          "lib/net6.0/Avalonia.Desktop.dll": {}
+          "lib/netstandard2.0/Avalonia.Desktop.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.Desktop.dll": {}
+          "lib/netstandard2.0/Avalonia.Desktop.dll": {}
         }
       },
       "Avalonia.Diagnostics/11.0.10": {
@@ -115,10 +120,10 @@
           "Microsoft.CodeAnalysis.Common": "3.8.0"
         },
         "compile": {
-          "lib/net6.0/Avalonia.Diagnostics.dll": {}
+          "lib/netstandard2.0/Avalonia.Diagnostics.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.Diagnostics.dll": {}
+          "lib/netstandard2.0/Avalonia.Diagnostics.dll": {}
         }
       },
       "Avalonia.Fonts.Inter/11.0.10": {
@@ -127,10 +132,10 @@
           "Avalonia": "11.0.10"
         },
         "compile": {
-          "lib/net6.0/Avalonia.Fonts.Inter.dll": {}
+          "lib/netstandard2.0/Avalonia.Fonts.Inter.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.Fonts.Inter.dll": {}
+          "lib/netstandard2.0/Avalonia.Fonts.Inter.dll": {}
         }
       },
       "Avalonia.FreeDesktop/11.0.10": {
@@ -140,10 +145,10 @@
           "Tmds.DBus.Protocol": "0.15.0"
         },
         "compile": {
-          "lib/net6.0/Avalonia.FreeDesktop.dll": {}
+          "lib/netstandard2.0/Avalonia.FreeDesktop.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.FreeDesktop.dll": {}
+          "lib/netstandard2.0/Avalonia.FreeDesktop.dll": {}
         }
       },
       "Avalonia.Native/11.0.10": {
@@ -152,10 +157,10 @@
           "Avalonia": "11.0.10"
         },
         "compile": {
-          "lib/net6.0/Avalonia.Native.dll": {}
+          "lib/netstandard2.0/Avalonia.Native.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.Native.dll": {}
+          "lib/netstandard2.0/Avalonia.Native.dll": {}
         },
         "runtimeTargets": {
           "runtimes/osx/native/libAvaloniaNative.dylib": {
@@ -167,10 +172,10 @@
       "Avalonia.Remote.Protocol/11.0.10": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Avalonia.Remote.Protocol.dll": {}
+          "lib/netstandard2.0/Avalonia.Remote.Protocol.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.Remote.Protocol.dll": {}
+          "lib/netstandard2.0/Avalonia.Remote.Protocol.dll": {}
         }
       },
       "Avalonia.Skia/11.0.10": {
@@ -185,10 +190,10 @@
           "SkiaSharp.NativeAssets.WebAssembly": "2.88.7"
         },
         "compile": {
-          "lib/net6.0/Avalonia.Skia.dll": {}
+          "lib/netstandard2.0/Avalonia.Skia.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.Skia.dll": {}
+          "lib/netstandard2.0/Avalonia.Skia.dll": {}
         }
       },
       "Avalonia.Themes.Fluent/11.0.10": {
@@ -197,10 +202,10 @@
           "Avalonia": "11.0.10"
         },
         "compile": {
-          "lib/net6.0/Avalonia.Themes.Fluent.dll": {}
+          "lib/netstandard2.0/Avalonia.Themes.Fluent.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.Themes.Fluent.dll": {}
+          "lib/netstandard2.0/Avalonia.Themes.Fluent.dll": {}
         }
       },
       "Avalonia.Themes.Simple/11.0.10": {
@@ -209,10 +214,10 @@
           "Avalonia": "11.0.10"
         },
         "compile": {
-          "lib/net6.0/Avalonia.Themes.Simple.dll": {}
+          "lib/netstandard2.0/Avalonia.Themes.Simple.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.Themes.Simple.dll": {}
+          "lib/netstandard2.0/Avalonia.Themes.Simple.dll": {}
         }
       },
       "Avalonia.Win32/11.0.10": {
@@ -223,10 +228,10 @@
           "System.Numerics.Vectors": "4.5.0"
         },
         "compile": {
-          "lib/net6.0/Avalonia.Win32.dll": {}
+          "lib/netstandard2.0/Avalonia.Win32.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.Win32.dll": {}
+          "lib/netstandard2.0/Avalonia.Win32.dll": {}
         }
       },
       "Avalonia.X11/11.0.10": {
@@ -237,10 +242,10 @@
           "Avalonia.Skia": "11.0.10"
         },
         "compile": {
-          "lib/net6.0/Avalonia.X11.dll": {}
+          "lib/netstandard2.0/Avalonia.X11.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Avalonia.X11.dll": {}
+          "lib/netstandard2.0/Avalonia.X11.dll": {}
         }
       },
       "HarfBuzzSharp/7.3.0": {
@@ -250,10 +255,10 @@
           "HarfBuzzSharp.NativeAssets.macOS": "7.3.0"
         },
         "compile": {
-          "lib/net6.0/HarfBuzzSharp.dll": {}
+          "lib/netcoreapp3.1/HarfBuzzSharp.dll": {}
         },
         "runtime": {
-          "lib/net6.0/HarfBuzzSharp.dll": {}
+          "lib/netcoreapp3.1/HarfBuzzSharp.dll": {}
         }
       },
       "HarfBuzzSharp.NativeAssets.Linux/7.3.0": {
@@ -262,10 +267,10 @@
           "HarfBuzzSharp": "7.3.0"
         },
         "compile": {
-          "lib/net6.0/_._": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
-          "lib/net6.0/_._": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtimeTargets": {
           "runtimes/linux-arm/native/libHarfBuzzSharp.so": {
@@ -289,10 +294,10 @@
       "HarfBuzzSharp.NativeAssets.macOS/7.3.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
-          "lib/net6.0/_._": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtimeTargets": {
           "runtimes/osx/native/libHarfBuzzSharp.dylib": {
@@ -317,10 +322,10 @@
       "HarfBuzzSharp.NativeAssets.Win32/7.3.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
-          "lib/net6.0/_._": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtimeTargets": {
           "runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
@@ -344,6 +349,15 @@
         },
         "runtime": {
           "lib/net5.0/MicroCom.Runtime.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.Analyzers/3.0.0": {
@@ -625,10 +639,10 @@
           "SkiaSharp.NativeAssets.macOS": "2.88.7"
         },
         "compile": {
-          "lib/net6.0/SkiaSharp.dll": {}
+          "lib/netcoreapp3.1/SkiaSharp.dll": {}
         },
         "runtime": {
-          "lib/net6.0/SkiaSharp.dll": {}
+          "lib/netcoreapp3.1/SkiaSharp.dll": {}
         }
       },
       "SkiaSharp.NativeAssets.Linux/2.88.7": {
@@ -637,10 +651,10 @@
           "SkiaSharp": "2.88.7"
         },
         "compile": {
-          "lib/net6.0/_._": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
-          "lib/net6.0/_._": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtimeTargets": {
           "runtimes/linux-arm/native/libSkiaSharp.so": {
@@ -664,10 +678,10 @@
       "SkiaSharp.NativeAssets.macOS/2.88.7": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
-          "lib/net6.0/_._": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtimeTargets": {
           "runtimes/osx/native/libSkiaSharp.dylib": {
@@ -692,10 +706,10 @@
       "SkiaSharp.NativeAssets.Win32/2.88.7": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
-          "lib/net6.0/_._": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtimeTargets": {
           "runtimes/win-arm64/native/libSkiaSharp.dll": {
@@ -804,10 +818,10 @@
       "System.IO.Pipelines/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.IO.Pipelines.dll": {}
+          "lib/netcoreapp3.1/System.IO.Pipelines.dll": {}
         },
         "runtime": {
-          "lib/net6.0/System.IO.Pipelines.dll": {}
+          "lib/netcoreapp3.1/System.IO.Pipelines.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -1105,6 +1119,18 @@
           "lib/netstandard1.3/System.Threading.dll": {}
         }
       },
+      "System.Threading.Channels/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/System.Threading.Channels.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1125,16 +1151,27 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
       "Tmds.DBus.Protocol/0.15.0": {
         "type": "package",
         "dependencies": {
-          "System.IO.Pipelines": "6.0.0"
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
+          "System.IO.Pipelines": "6.0.0",
+          "System.Threading.Channels": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Tmds.DBus.Protocol.dll": {}
+          "lib/netstandard2.1/Tmds.DBus.Protocol.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Tmds.DBus.Protocol.dll": {}
+          "lib/netstandard2.1/Tmds.DBus.Protocol.dll": {}
         }
       }
     }
@@ -1756,6 +1793,27 @@
         "lib/netstandard2.0/MicroCom.Runtime.dll",
         "microcom.runtime.0.11.0.nupkg.sha512",
         "microcom.runtime.nuspec"
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "sha512": "UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/3.0.0": {
@@ -4060,6 +4118,33 @@
         "system.threading.nuspec"
       ]
     },
+    "System.Threading.Channels/6.0.0": {
+      "sha512": "TY8/9+tI0mNaUMgntOxxaq2ndTkdXqLSxvPmas7XEqOlv9lQtB7wLjYGd756lOaO7Dvb5r/WXhluM+0Xe87v5Q==",
+      "type": "package",
+      "path": "system.threading.channels/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Threading.Channels.dll",
+        "lib/net461/System.Threading.Channels.xml",
+        "lib/net6.0/System.Threading.Channels.dll",
+        "lib/net6.0/System.Threading.Channels.xml",
+        "lib/netcoreapp3.1/System.Threading.Channels.dll",
+        "lib/netcoreapp3.1/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "lib/netstandard2.1/System.Threading.Channels.dll",
+        "lib/netstandard2.1/System.Threading.Channels.xml",
+        "system.threading.channels.6.0.0.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Threading.Tasks/4.3.0": {
       "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "type": "package",
@@ -4165,6 +4250,50 @@
         "version.txt"
       ]
     },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "Tmds.DBus.Protocol/0.15.0": {
       "sha512": "QVo/Y39nTYcCKBqrZuwHjXdwaky0yTQPIT3qUTEEK2MZfDtZWrJ2XyZ59zH8LBgB2fL5cWaTuP2pBTpGz/GeDQ==",
       "type": "package",
@@ -4181,7 +4310,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net5.0": [
       "Avalonia >= 11.0.10",
       "Avalonia.Desktop >= 11.0.10",
       "Avalonia.Diagnostics >= 11.0.10",
@@ -4190,29 +4319,39 @@
     ]
   },
   "packageFolders": {
-    "/home/user/.nuget/packages/": {}
+    "C:\\Users\\Dimant.Sofia\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/user/Рабочий стол/hgh/GetStartedApp/GetStartedApp_/GetStartedApp_.csproj",
+      "projectUniqueName": "C:\\Users\\Dimant.Sofia\\Desktop\\4-1\\GetStartedApp_.csproj",
       "projectName": "GetStartedApp_",
-      "projectPath": "/home/user/Рабочий стол/hgh/GetStartedApp/GetStartedApp_/GetStartedApp_.csproj",
-      "packagesPath": "/home/user/.nuget/packages/",
-      "outputPath": "/home/user/Рабочий стол/hgh/GetStartedApp/GetStartedApp_/obj/",
+      "projectPath": "C:\\Users\\Dimant.Sofia\\Desktop\\4-1\\GetStartedApp_.csproj",
+      "packagesPath": "C:\\Users\\Dimant.Sofia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dimant.Sofia\\Desktop\\4-1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/home/user/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Dimant.Sofia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -4223,8 +4362,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Avalonia": {
             "target": "Package",
@@ -4262,7 +4401,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.103/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
